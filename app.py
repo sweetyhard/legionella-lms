@@ -257,3 +257,38 @@ def admin_reset_demo_passwords():
 if __name__ == "__main__":
     # internetten erişim: host=0.0.0.0
     app.run(host="0.0.0.0", port=5000, debug=False)
+@app.route("/change-password", methods=["GET","POST"])
+@login_required
+def change_password():
+    if request.method == "POST":
+        old = request.form.get("old")
+        new = request.form.get("new")
+        new2 = request.form.get("new2")
+
+        if not old or not new or not new2:
+            flash("Tüm alanları doldurun.")
+            return redirect(url_for("change_password"))
+
+        if new != new2:
+            flash("Yeni şifreler uyuşmuyor.")
+            return redirect(url_for("change_password"))
+
+        conn = get_conn()
+        cur = conn.cursor()
+        cur.execute("SELECT pw_hash FROM users WHERE id=?", (current_user.id,))
+        row = cur.fetchone()
+
+        if not check_password_hash(row["pw_hash"], old):
+            conn.close()
+            flash("Eski şifre yanlış.")
+            return redirect(url_for("change_password"))
+
+        cur.execute("UPDATE users SET pw_hash=? WHERE id=?",
+                    (generate_password_hash(new), current_user.id))
+        conn.commit()
+        conn.close()
+
+        flash("Şifreniz değiştirildi.")
+        return redirect(url_for("home"))
+
+    return render_template("change_password.html")
