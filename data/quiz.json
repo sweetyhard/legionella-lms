@@ -1,0 +1,65 @@
+{
+  "title": "Legionella & Ağır Pnömoni Mini Sınav",
+  "questions": [
+    {
+      "id": 1,
+      "stem": "Hiponatremi + konfüzyon + pnömoni + beta-laktama yanıtsızlık en çok hangi etkeni düşündürür?",
+      "choices": [
+        "Streptococcus pneumoniae",
+        "Legionella pneumophila",
+        "Haemophilus influenzae",
+        "Staphylococcus aureus"
+      ],
+      "answer_index": 1,
+      "explain": "Hiponatremi ve konfüzyon, atipik pnömoni paterni ve beta-laktam yanıtsızlığı Legionella lehinedir."
+    },
+    {
+      "id": 2,
+      "stem": "Ağır toplum kökenli pnömonide Legionella için ilk tercih hızlı tanı testi hangisidir?",
+      "choices": [
+        "Seroloji",
+        "Balgam Gram boyama",
+        "İdrar antijen testi",
+        "Kan kültürü"
+      ],
+      "answer_index": 2,
+      "explain": "İdrar antijeni hızlı ve özgül bir testtir (özellikle serogrup 1 için)."
+    },
+    {
+      "id": 3,
+      "stem": "Legionella için standart enfeksiyon kontrol yaklaşımı hangisidir?",
+      "choices": [
+        "Damlacık izolasyonu zorunlu",
+        "Hava izolasyonu zorunlu",
+        "Özel izolasyon gerekmez (standart önlemler)",
+        "Temas izolasyonu zorunlu"
+      ],
+      "answer_index": 2,
+      "explain": "Legionella tipik olarak kişiden kişiye bulaşmaz; standart önlemler yeterlidir."
+    },
+    {
+      "id": 4,
+      "stem": "PJP için daha tipik olan laboratuvar bulgusu hangisidir?",
+      "choices": [
+        "LDH yüksekliği",
+        "Hiponatremi",
+        "Prokalsitonin çok yüksekliği",
+        "Şiddetli lökositoz"
+      ],
+      "answer_index": 0,
+      "explain": "PJP'de LDH sıklıkla yükselir; klinik olarak subakut dispne ve hipoksemi ön plandadır."
+    },
+    {
+      "id": 5,
+      "stem": "Sepsiste ilk saat (golden hour) yaklaşımında en öncelikli adım hangisidir?",
+      "choices": [
+        "Kültür sonucu gelene kadar antibiyotiği beklemek",
+        "Geniş spektrum antibiyotik başlamak",
+        "Antipiretik verip taburcu etmek",
+        "Sadece oksijen vermek"
+      ],
+      "answer_index": 1,
+      "explain": "Sepsiste antibiyotik gecikmesi mortaliteyi artırır; kültür alınıp antibiyotik başlanır."
+    }
+  ]
+}

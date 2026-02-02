@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "title": "Vaka 1: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 91,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 521
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 2,
+    "title": "Vaka 2: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 42,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 3,
+    "title": "Vaka 3: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 203,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 4,
+    "title": "Vaka 4: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 164,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 5,
+    "title": "Vaka 5: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 128,
+      "CRP": 255,
+      "Laktat": 3.5,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 6,
+    "title": "Vaka 6: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 128,
+      "CRP": 192,
+      "AST": 86,
+      "ALT": 76,
+      "LDH": 286
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 7,
+    "title": "Vaka 7: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 97,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 527
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 8,
+    "title": "Vaka 8: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 48,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 9,
+    "title": "Vaka 9: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 209,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 10,
+    "title": "Vaka 10: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 170,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 11,
+    "title": "Vaka 11: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 129,
+      "CRP": 261,
+      "Laktat": 3.1,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 12,
+    "title": "Vaka 12: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 127,
+      "CRP": 204,
+      "AST": 92,
+      "ALT": 82,
+      "LDH": 292
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 13,
+    "title": "Vaka 13: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 103,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 533
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 14,
+    "title": "Vaka 14: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 54,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 15,
+    "title": "Vaka 15: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 215,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 16,
+    "title": "Vaka 16: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 176,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 17,
+    "title": "Vaka 17: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 130,
+      "CRP": 267,
+      "Laktat": 3.7,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 18,
+    "title": "Vaka 18: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 126,
+      "CRP": 216,
+      "AST": 98,
+      "ALT": 88,
+      "LDH": 298
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 19,
+    "title": "Vaka 19: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 109,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 539
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 20,
+    "title": "Vaka 20: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 60,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 21,
+    "title": "Vaka 21: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 221,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 22,
+    "title": "Vaka 22: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 182,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 23,
+    "title": "Vaka 23: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 131,
+      "CRP": 273,
+      "Laktat": 3.3,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 24,
+    "title": "Vaka 24: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 125,
+      "CRP": 228,
+      "AST": 104,
+      "ALT": 94,
+      "LDH": 304
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 25,
+    "title": "Vaka 25: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 115,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 545
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 26,
+    "title": "Vaka 26: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 66,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 27,
+    "title": "Vaka 27: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 227,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 28,
+    "title": "Vaka 28: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 188,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 29,
+    "title": "Vaka 29: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 132,
+      "CRP": 279,
+      "Laktat": 3.9,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 30,
+    "title": "Vaka 30: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 124,
+      "CRP": 240,
+      "AST": 80,
+      "ALT": 75,
+      "LDH": 310
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 31,
+    "title": "Vaka 31: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 121,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 551
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 32,
+    "title": "Vaka 32: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 72,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 33,
+    "title": "Vaka 33: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 233,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 34,
+    "title": "Vaka 34: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 194,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 35,
+    "title": "Vaka 35: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 128,
+      "CRP": 285,
+      "Laktat": 3.5,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 36,
+    "title": "Vaka 36: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 123,
+      "CRP": 252,
+      "AST": 86,
+      "ALT": 81,
+      "LDH": 316
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 37,
+    "title": "Vaka 37: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 127,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 557
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 38,
+    "title": "Vaka 38: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 78,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 39,
+    "title": "Vaka 39: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 239,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 40,
+    "title": "Vaka 40: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 200,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 41,
+    "title": "Vaka 41: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 129,
+      "CRP": 291,
+      "Laktat": 3.1,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 42,
+    "title": "Vaka 42: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 122,
+      "CRP": 264,
+      "AST": 92,
+      "ALT": 87,
+      "LDH": 322
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 43,
+    "title": "Vaka 43: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 93,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 563
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 44,
+    "title": "Vaka 44: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 84,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 45,
+    "title": "Vaka 45: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 245,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 46,
+    "title": "Vaka 46: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 206,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 47,
+    "title": "Vaka 47: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 130,
+      "CRP": 297,
+      "Laktat": 3.7,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 48,
+    "title": "Vaka 48: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 128,
+      "CRP": 276,
+      "AST": 98,
+      "ALT": 93,
+      "LDH": 328
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 49,
+    "title": "Vaka 49: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 99,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 569
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 50,
+    "title": "Vaka 50: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 90,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 51,
+    "title": "Vaka 51: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 251,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 52,
+    "title": "Vaka 52: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 212,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 53,
+    "title": "Vaka 53: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 131,
+      "CRP": 303,
+      "Laktat": 3.3,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 54,
+    "title": "Vaka 54: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 127,
+      "CRP": 288,
+      "AST": 104,
+      "ALT": 74,
+      "LDH": 284
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  },
+  {
+    "id": 55,
+    "title": "Vaka 55: PJP (Pneumocystis jirovecii pnömonisi)",
+    "presentation": "Subakut dispne + hipoksemi + LDH↑ + diffüz buzlu cam",
+    "labs": {
+      "Na": 134,
+      "CRP": 105,
+      "AST": 40,
+      "ALT": 35,
+      "LDH": 575
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "PJP (Pneumocystis jirovecii pnömonisi)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "TMP-SMX ± steroid (PaO2/SpO2 kriterine göre)"
+  },
+  {
+    "id": 56,
+    "title": "Vaka 56: Viral pnömoni (influenza/COVID/RSV olası)",
+    "presentation": "Miyalji + lökopeni + orta CRP + buzlu cam",
+    "labs": {
+      "Na": 136,
+      "CRP": 96,
+      "AST": 55,
+      "ALT": 50,
+      "LDH": 300
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Viral pnömoni (influenza/COVID/RSV olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Destek + uygun antiviral (klinik şüphede erken)"
+  },
+  {
+    "id": 57,
+    "title": "Vaka 57: Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "presentation": "Lober konsolidasyon + yüksek CRP + lökositoz",
+    "labs": {
+      "Na": 132,
+      "CRP": 257,
+      "AST": 35,
+      "ALT": 30,
+      "LDH": 260
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Ağır toplum kökenli bakteriyel pnömoni (pnömokok olası)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Beta-laktam + makrolid / solunum kinolonu"
+  },
+  {
+    "id": 58,
+    "title": "Vaka 58: Aspirasyon pnömonisi (seçilmiş vaka)",
+    "presentation": "Bilinç kaybı/aspirasyon öyküsü + alt lob",
+    "labs": {
+      "Na": 135,
+      "CRP": 218,
+      "AST": 45,
+      "ALT": 40,
+      "LDH": 280
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Aspirasyon pnömonisi (seçilmiş vaka)",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Ampisilin-sulbaktam veya eşdeğer; risklere göre genişlet"
+  },
+  {
+    "id": 59,
+    "title": "Vaka 59: Sepsis/Septik şok eşlik eden pnömoni",
+    "presentation": "Hipotansiyon + laktat↑ + organ disfonksiyonu",
+    "labs": {
+      "Na": 132,
+      "CRP": 309,
+      "Laktat": 3.9,
+      "AST": 90,
+      "ALT": 85
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Sepsis/Septik şok eşlik eden pnömoni",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Sepsis paketi + geniş spektrum; kaynak kontrolü"
+  },
+  {
+    "id": 60,
+    "title": "Vaka 60: Legionella pnömonisi",
+    "presentation": "Na↓ + konfüzyon + AST/ALT↑ + beta-laktam yanıtsız",
+    "labs": {
+      "Na": 126,
+      "CRP": 300,
+      "AST": 80,
+      "ALT": 80,
+      "LDH": 290
+    },
+    "imaging": "PA grafi/BT: klinikle uyumlu infiltrasyon paterni",
+    "most_likely_dx": "Legionella pnömonisi",
+    "next_step": "Hedeflenmiş testler + uygun ampirik tedavi",
+    "treatment": "Levofloksasin veya moksifloksasin (ağırsa IV + geniş kapsama)"
+  }
+]

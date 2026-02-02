@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>Giriş</h2>
+  <form method="post">
+    <label>Kullanıcı adı</label>
+    <input name="username" required>
+    <div style="height:10px"></div>
+    <label>Şifre</label>
+    <input name="password" type="password" required>
+    <div style="height:14px"></div>
+    <button class="btn primary" type="submit">Giriş Yap</button>
+  </form>
+  <p class="muted" style="margin-top:12px">Demo hesapları README.md içinde.</p>
+</div>
+{% endblock %}

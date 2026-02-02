@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>Performansım</h2>
+  <p><b>Kullanıcı:</b> {{ current_user.username }}</p>
+  <p class="muted">Sınav geçmişi:</p>
+  <table>
+    <thead><tr><th>Tarih</th><th>Skor</th><th>Detay</th></tr></thead>
+    <tbody>
+      {% for r in rows %}
+        <tr>
+          <td>{{ r.taken_at }}</td>
+          <td>{{ r.score }}</td>
+          <td class="muted">{{ r.details }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% if rows|length == 0 %}
+    <p class="muted">Henüz sınav tamamlamadın.</p>
+  {% endif %}
+</div>
+{% endblock %}

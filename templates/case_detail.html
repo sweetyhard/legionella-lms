@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>{{ c.title }}</h2>
+  <p class="muted"><b>Sunum:</b> {{ c.presentation }}</p>
+  <p><b>Görüntüleme:</b> {{ c.imaging }}</p>
+  <h3>Laboratuvar</h3>
+  <ul>
+    {% for k,v in c.labs.items() %}
+      <li><b>{{ k }}:</b> {{ v }}</li>
+    {% endfor %}
+  </ul>
+  <h3>En Olası Tanı</h3>
+  <p>{{ c.most_likely_dx }}</p>
+  <h3>İlk Adım</h3>
+  <p>{{ c.next_step }}</p>
+  <h3>Tedavi</h3>
+  <p>{{ c.treatment }}</p>
+  <a class="btn" href="{{ url_for('cases') }}">← Geri</a>
+</div>
+{% endblock %}

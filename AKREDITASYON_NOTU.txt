@@ -1,0 +1,7 @@
+AKREDİTASYON UYUM PAKETİ (Kısa Şablon)
+- Müfredat: lessons sayfası + ders notları (PDF/HTML bağlantıları)
+- Uygulama: vaka bankası (>=60 vaka) ve vaka detay sayfaları
+- Ölçme-değerlendirme: mini sınav + otomatik puanlama + sonuç kaydı
+- Kayıt & izlenebilirlik: SQLite sonuç tablosu + CSV export
+- Sürekli iyileştirme: vaka bankası ve soru bankası periyodik güncellenir (versiyonlama önerilir)
+Denetim kanıtları: admin panel ekran görüntüleri + CSV çıktıları + örnek bireysel performans sayfası.

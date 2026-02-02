@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>Sonuç</h2>
+  <p><b>Skor:</b> {{ score }}/100</p>
+  <p class="muted">Yanıt analizi:</p>
+  <ol>
+    {% for item in review %}
+      <li>
+        <div><b>{{ item.stem }}</b></div>
+        <div class="muted">Senin cevabın: {{ item.your }} | Doğru: {{ item.correct }}</div>
+        <div class="muted">Açıklama: {{ item.explain }}</div>
+      </li>
+    {% endfor %}
+  </ol>
+  <a class="btn" href="{{ url_for('me') }}">Performansım</a>
+</div>
+{% endblock %}

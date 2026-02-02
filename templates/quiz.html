@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>{{ quiz.title }}</h2>
+  <p class="muted">Her soru 20 puan. Bitirince otomatik skor kaydedilir.</p>
+  <form method="post">
+    {% for q in quiz.questions %}
+      <div class="card">
+        <h3>Soru {{ loop.index }}.</h3>
+        <p>{{ q.stem }}</p>
+        {% for ch in q.choices %}
+          <label style="display:block;margin:6px 0">
+            <input type="radio" name="q{{ q.id }}" value="{{ loop.index0 }}" required> {{ ch }}
+          </label>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    <button class="btn primary" type="submit">Sınavı Bitir</button>
+  </form>
+</div>
+{% endblock %}

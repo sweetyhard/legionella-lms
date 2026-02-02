@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <h2>Admin Panel</h2>
+  <p class="muted">Toplam kullanıcı: {{ users|length }} | Toplam sınav sonucu: {{ results|length }}</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin:10px 0">
+    <a class="btn" href="{{ url_for('admin_export_csv') }}">CSV Export</a>
+    <a class="btn" href="{{ url_for('admin_reset_demo_passwords') }}">Demo Şifreleri Reset</a>
+  </div>
+</div>
+
+<div class="card">
+  <h3>Kullanıcılar</h3>
+  <table>
+    <thead><tr><th>Kullanıcı</th><th>Rol</th><th>Oluşturma</th></tr></thead>
+    <tbody>
+      {% for u in users %}
+        <tr>
+          <td>{{ u.username }}</td>
+          <td>{{ "admin" if u.is_admin else "asistan" }}</td>
+          <td class="muted">{{ u.created_at }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Sınav Sonuçları</h3>
+  <table>
+    <thead><tr><th>Tarih</th><th>Kullanıcı</th><th>Skor</th><th>Detay</th></tr></thead>
+    <tbody>
+      {% for r in results %}
+        <tr>
+          <td>{{ r.taken_at }}</td>
+          <td>{{ r.username }}</td>
+          <td>{{ r.score }}</td>
+          <td class="muted">{{ r.details }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
