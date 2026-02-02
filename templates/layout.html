@@ -19,6 +19,8 @@
         <a href="{{ url_for('me') }}">Performansım</a>
         {% if current_user.is_admin %}
           <a href="{{ url_for('admin') }}">Admin Panel</a>
+          <a href="{{ url_for('change_password') }}">Şifre Değiştir</a>
+
         {% endif %}
         <a href="{{ url_for('logout') }}" class="btn danger">Çıkış</a>
       </div>
